@@ -19,4 +19,7 @@ Crash 防护框架
 
 * 测试结果截图：
 
-<img src="https://upload-images.jianshu.io/upload_images/3101550-a6eede0b8a348bbd.png" width="800" alt=""/>
+<img src="https://upload-images.jianshu.io/upload_images/3101550-a6eede0b8a348bbd.png" width="600" alt=""/>
+
+
+欢迎提issue。
