@@ -12,11 +12,12 @@
 |  支持类型|  说明| 
 | --- | --- |
 |  NSArray|  | 
-|  NSMutableArray|  |  
+|  NSMutableArray| 增删改查 |  
 |  NSDictionary|  |  
 |  NSMutableDictionary|  |  
 |  NSString|  |  
 |  NSMutableString|  |  
+|  NSAttributedString | 对初始化方法进行防护 |
 |  NSSelector|  支持实例方法、类方法防护|  
 
 * 测试结果截图：
