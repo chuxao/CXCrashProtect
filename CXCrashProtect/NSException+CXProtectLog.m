@@ -55,7 +55,7 @@
      */
     if (callStackSymbol) {
         
-        NSLog(@"Exception: %@ \n %@", message, callStackSymbol);
+        NSLog(@">>>>>>>>>>Exception: %@ \n %@<<<<<<<<<<", message, callStackSymbol);
     }
     
 }

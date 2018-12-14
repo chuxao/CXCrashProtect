@@ -108,13 +108,21 @@
  */
 - (void)testMutableStringProtect
 {
-    NSString *mstring = nil;
+    NSString *string = nil;
     
-    [mstring rangeOfString:@"abc"];
+    [string rangeOfString:@"abc"];
     
-    [mstring substringFromIndex:8];
-    [mstring substringToIndex:8];
-    [mstring substringWithRange:NSMakeRange(8, 8)];
+    [string substringFromIndex:8];
+    [string substringToIndex:8];
+    [string substringWithRange:NSMakeRange(8, 8)];
+}
+
+- (void)testAttributedStringProtect
+{
+    NSString *string = nil;
+    
+    [[NSAttributedString alloc] initWithString:string];
+    [[NSAttributedString alloc] initWithString:string attributes:nil];
 }
 
 /**

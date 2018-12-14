@@ -13,6 +13,7 @@
 #import "NSMutableDictionary+CXProtect.h"
 #import "NSString+CXProtect.h"
 #import "NSMutableString+CXProtect.h"
+#import "NSAttributedString+CXProtect.h"
 #import "NSObject+SelectorProtect.h"
 
 @implementation CXProtectManager
@@ -25,6 +26,7 @@
     [NSMutableDictionary setupMutableDictionaryProtect];
     [NSString setupStringProtect];
     [NSMutableString setupMutableStringProtect];
+    [NSAttributedString setupAttributedStringProtect];
     [NSObject setupSelectorProtect];
 }
 
