@@ -95,8 +95,9 @@
 - (void)testStringProtect
 {
     NSString *string = @"chuxiao";
+    NSString *string2;
     
-    [string rangeOfString:@"abc"];
+    [string rangeOfString:string2];
     
     [string substringFromIndex:8];
     [string substringToIndex:8];
