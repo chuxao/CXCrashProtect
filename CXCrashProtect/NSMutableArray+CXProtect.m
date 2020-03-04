@@ -63,7 +63,7 @@
 - (id)cx_objectAtIndexedSubscript:(NSUInteger)index {
     id object = nil;
     @try {
-        object = [self cx_objectAtIndex:index];
+        object = [self cx_objectAtIndexedSubscript:index];
     }
     @catch (NSException *exception) {
         [exception print];
