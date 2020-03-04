@@ -69,7 +69,7 @@
 {
     NSString *string = nil;
     
-    NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:string, string, nil];
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"key", string, nil];
     
     [dictionary objectForKey:string];
 }
