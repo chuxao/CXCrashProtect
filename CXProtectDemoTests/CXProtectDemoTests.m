@@ -108,7 +108,7 @@
  */
 - (void)testMutableStringProtect
 {
-    NSString *string = nil;
+    NSString *string = @"chuxiao";
     
     [string rangeOfString:@"abc"];
     
