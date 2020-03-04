@@ -94,7 +94,7 @@
  */
 - (void)testStringProtect
 {
-    NSString *string = nil;
+    NSString *string = @"chuxiao";
     
     [string rangeOfString:@"abc"];
     
