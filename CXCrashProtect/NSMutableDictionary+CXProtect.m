@@ -53,7 +53,7 @@
 - (void)cx_setObject:(id)obj forKeyedSubscript:(id<NSCopying>)key {
     
     @try {
-        [self cx_setObject:obj forKey:key];
+        [self cx_setObject:obj forKeyedSubscript:key];
     }
     @catch (NSException *exception) {
         [exception print];
